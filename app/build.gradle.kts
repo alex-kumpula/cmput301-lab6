@@ -8,6 +8,10 @@ android {
         version = release(36)
     }
 
+    tasks.withType<Test>{
+        useJUnitPlatform()
+    }
+
     defaultConfig {
         applicationId = "com.example.listycity"
         minSdk = 24
