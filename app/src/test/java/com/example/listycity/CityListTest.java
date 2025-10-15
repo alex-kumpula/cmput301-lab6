@@ -3,6 +3,9 @@ package com.example.listycity;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test cases for the CityList class.
+ */
 class CityListTest {
     private CityList mockCityList() {
         CityList cityList = new CityList();
